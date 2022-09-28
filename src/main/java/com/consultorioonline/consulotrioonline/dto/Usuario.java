@@ -14,7 +14,7 @@ public class Usuario {
     private String nom_usua;
     private String ape_usua;
     private Date fecnac_usua;
-    private char sexo_usua;
+    private String sexo_usua;
     private int tipo_rol;
 
     public Usuario(int iden_usua, String email_usua, String pass_usua, String nom_usua, String ape_usua, Date fecnac_usua, char sexo_usua, int tipo_rol) {
