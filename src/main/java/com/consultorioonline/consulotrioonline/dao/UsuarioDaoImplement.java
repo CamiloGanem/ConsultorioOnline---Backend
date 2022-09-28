@@ -4,9 +4,11 @@ import com.consultorioonline.consulotrioonline.dto.Usuario;
 import com.consultorioonline.consulotrioonline.mapper.UsuarioMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+@Repository
 public class UsuarioDaoImplement implements UsuarioDao{
 
     private static final String SELECTALL = "SELECT * FROM usuarios";

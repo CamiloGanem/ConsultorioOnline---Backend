@@ -17,7 +17,7 @@ public class Usuario {
     private String sexo_usua;
     private int tipo_rol;
 
-    public Usuario(int iden_usua, String email_usua, String pass_usua, String nom_usua, String ape_usua, Date fecnac_usua, char sexo_usua, int tipo_rol) {
+    public Usuario(int iden_usua, String email_usua, String pass_usua, String nom_usua, String ape_usua, Date fecnac_usua, String sexo_usua, int tipo_rol) {
         this.iden_usua = iden_usua;
         this.email_usua = email_usua;
         this.pass_usua = pass_usua;
